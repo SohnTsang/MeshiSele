@@ -103,4 +103,4 @@ debug_crash.sh
 lldb_crash_commands.txt
 
 # Firebase config (keep in repo as it's not sensitive)
-# GoogleService-Info.plist 
+# GoogleService-Info.plist MeshiSele/Scripts/service-account-key.json
