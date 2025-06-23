@@ -102,5 +102,7 @@ local.properties
 debug_crash.sh
 lldb_crash_commands.txt
 
-# Firebase config (keep in repo as it's not sensitive)
-# GoogleService-Info.plist MeshiSele/Scripts/service-account-key.json
+# Firebase and API Keys (sensitive information)
+GoogleService-Info.plist
+MeshiSele/Scripts/service-account-key.json
+MeshiSele/Constants/APIKeys.swift

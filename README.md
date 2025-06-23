@@ -33,12 +33,41 @@ A Japanese food recommendation iOS app that helps users discover recipes and res
 
 ## Setup
 
-1. Clone the repository
-2. Open `MeshiSele.xcodeproj` in Xcode
-3. Install dependencies (Firebase SDK will be automatically resolved)
-4. Add your `GoogleService-Info.plist` file to the project
-5. Configure Google Maps API key in `APIKeys.swift`
-6. Build and run on iOS Simulator or device
+### Prerequisites
+1. **Xcode 15.0+** with iOS 15.0+ deployment target
+2. **Firebase Project** with Firestore and Authentication enabled
+3. **Google Cloud Project** with Places API enabled
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/SohnTsang/MeshiSele.git
+cd MeshiSele
+```
+
+### 2. Configure API Keys
+1. Copy the template file:
+   ```bash
+   cp MeshiSele/Constants/APIKeys.swift.template MeshiSele/Constants/APIKeys.swift
+   ```
+2. Edit `MeshiSele/Constants/APIKeys.swift` and replace `YOUR_GOOGLE_PLACES_API_KEY_HERE` with your actual Google Places API key
+3. Get your API key from [Google Cloud Console](https://console.cloud.google.com/apis/credentials)
+4. Enable the following APIs:
+   - Places API
+   - Maps SDK for iOS
+   - Geocoding API
+
+### 3. Configure Firebase
+1. Copy the template file:
+   ```bash
+   cp MeshiSele/GoogleService-Info.plist.template MeshiSele/GoogleService-Info.plist
+   ```
+2. Download your actual `GoogleService-Info.plist` from [Firebase Console](https://console.firebase.google.com/)
+3. Replace the template file with your downloaded Firebase configuration
+
+### 4. Build and Run
+1. Open `MeshiSele.xcodeproj` in Xcode
+2. Install dependencies (Firebase SDK will be automatically resolved)
+3. Build and run on iOS Simulator or device
 
 ## Project Structure
 
@@ -68,6 +97,17 @@ MeshiSele/
 - **Local JSON**: Backup recipe database with 200+ recipes
 - **Firebase**: Primary database for recipes and user data
 - **Google Places**: Restaurant information and reviews
+
+## Security
+
+⚠️ **Important**: Never commit sensitive files to version control!
+
+The following files contain sensitive information and are excluded from the repository:
+- `MeshiSele/Constants/APIKeys.swift` - Contains Google API keys
+- `MeshiSele/GoogleService-Info.plist` - Contains Firebase configuration
+- `MeshiSele/Scripts/service-account-key.json` - Contains Firebase service account credentials
+
+Template files are provided for setup guidance.
 
 ## License
 

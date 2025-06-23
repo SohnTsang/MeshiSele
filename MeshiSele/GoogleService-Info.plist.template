@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>YOUR_FIREBASE_API_KEY_HERE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>YOUR_GCM_SENDER_ID_HERE</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.yourcompany.MeshiSele</string>
+	<key>PROJECT_ID</key>
+	<string>YOUR_FIREBASE_PROJECT_ID_HERE</string>
+	<key>STORAGE_BUCKET</key>
+	<string>YOUR_FIREBASE_PROJECT_ID_HERE.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>YOUR_GOOGLE_APP_ID_HERE</string>
+</dict>
+</plist>
+
+<!-- 
+Setup Instructions:
+
+1. Copy this file to GoogleService-Info.plist (remove .template extension)
+2. Download your actual GoogleService-Info.plist from Firebase Console:
+   - Go to https://console.firebase.google.com/
+   - Select your project
+   - Go to Project Settings > General tab
+   - In "Your apps" section, download GoogleService-Info.plist
+3. Replace this template file with the downloaded file
+4. Never commit the actual GoogleService-Info.plist to version control!
+--> 

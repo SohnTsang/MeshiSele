@@ -1,0 +1,34 @@
+//
+//  APIKeys.swift
+//  MeshiSele
+//
+//  Created on 2024-01-01.
+//
+
+import Foundation
+
+struct APIKeys {
+    // MARK: - Google Places API
+    static let googlePlacesAPIKey = "YOUR_GOOGLE_PLACES_API_KEY_HERE"
+    
+    // MARK: - Configuration Check
+    static var isConfigured: Bool {
+        return !googlePlacesAPIKey.isEmpty && 
+               googlePlacesAPIKey != "YOUR_GOOGLE_PLACES_API_KEY_HERE"
+    }
+}
+
+// MARK: - Setup Instructions
+/*
+ To set up API keys:
+ 
+ 1. Copy this file to APIKeys.swift (remove .template extension)
+ 2. Replace YOUR_GOOGLE_PLACES_API_KEY_HERE with your actual Google Places API key
+ 3. Get your API key from: https://console.cloud.google.com/apis/credentials
+ 4. Enable the following APIs in Google Cloud Console:
+    - Places API
+    - Maps SDK for iOS
+    - Geocoding API
+ 
+ Never commit the actual APIKeys.swift file to version control!
+ */ 
