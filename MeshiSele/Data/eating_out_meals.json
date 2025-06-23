@@ -1,0 +1,364 @@
+{
+  "eatingOutMeals": [
+    {
+      "id": "eating_out_1",
+      "name": "ラーメン",
+      "description": "醤油、味噌、豚骨など様々な味が楽しめる日本の代表的な麺料理",
+      "cuisine": "washoku",
+      "dietTags": ["normal", "meat"],
+      "estimatedBudget": 800,
+      "popularityCount": 156,
+      "emoji": "🍜",
+      "searchKeywords": ["ラーメン", "麺", "ramen"],
+      "allergens": {
+        "mandatory": ["小麦", "卵"],
+        "recommended": ["大豆", "豚肉", "鶏肉", "ごま"]
+      }
+    },
+    {
+      "id": "eating_out_2",
+      "name": "寿司",
+      "description": "新鮮な魚介類を使った日本の伝統料理",
+      "cuisine": "washoku",
+      "dietTags": ["normal", "healthy"],
+      "estimatedBudget": 2000,
+      "popularityCount": 89,
+      "emoji": "🍣",
+      "searchKeywords": ["寿司", "すし", "sushi"],
+      "allergens": {
+        "mandatory": ["えび", "かに"],
+        "recommended": ["いか", "いくら", "さけ", "さば", "大豆"]
+      }
+    },
+    {
+      "id": "eating_out_3",
+      "name": "ハンバーガー",
+      "description": "ジューシーなパティとフレッシュな野菜のアメリカ料理",
+      "cuisine": "yoshoku",
+      "dietTags": ["normal", "meat"],
+      "estimatedBudget": 1200,
+      "popularityCount": 134,
+      "emoji": "🍔",
+      "searchKeywords": ["ハンバーガー", "burger", "バーガー"],
+      "allergens": {
+        "mandatory": ["小麦", "卵", "乳"],
+        "recommended": ["牛肉", "大豆", "ごま"]
+      }
+    },
+    {
+      "id": "eating_out_4",
+      "name": "パスタ",
+      "description": "豊富なソースとトッピングが選べるイタリア料理",
+      "cuisine": "italian",
+      "dietTags": ["normal", "vegetarian"],
+      "estimatedBudget": 1300,
+      "popularityCount": 98,
+      "emoji": "🍝",
+      "searchKeywords": ["パスタ", "pasta", "イタリアン"],
+      "allergens": {
+        "mandatory": ["小麦", "卵"],
+        "recommended": ["大豆", "鶏肉", "豚肉"]
+      }
+    },
+    {
+      "id": "eating_out_5",
+      "name": "カレー",
+      "description": "スパイシーで温かいライス料理",
+      "cuisine": "other",
+      "dietTags": ["normal", "vegetarian", "vegetarian"],
+      "estimatedBudget": 900,
+      "popularityCount": 112,
+      "emoji": "🍛",
+      "searchKeywords": ["カレー", "curry", "カレーライス"],
+      "allergens": {
+        "mandatory": ["小麦", "乳"],
+        "recommended": ["大豆", "牛肉", "豚肉", "鶏肉", "りんご"]
+      }
+    },
+    {
+      "id": "eating_out_6",
+      "name": "中華料理",
+      "description": "炒め物や点心など多彩な中国料理",
+      "cuisine": "chuka",
+      "dietTags": ["normal", "meat"],
+      "estimatedBudget": 1100,
+      "popularityCount": 87,
+      "emoji": "🥟",
+      "searchKeywords": ["中華", "chinese", "炒飯", "餃子"],
+      "allergens": {
+        "mandatory": ["小麦", "卵"],
+        "recommended": ["大豆", "豚肉", "鶏肉", "牛肉", "ごま", "えび", "かに"]
+      }
+    },
+    {
+      "id": "eating_out_7",
+      "name": "焼肉",
+      "description": "ジューシーなお肉を焼いて楽しむ料理",
+      "cuisine": "washoku",
+      "dietTags": ["normal", "meat"],
+      "estimatedBudget": 2500,
+      "popularityCount": 76,
+      "emoji": "🥩",
+      "searchKeywords": ["焼肉", "yakiniku", "bbq"],
+      "allergens": {
+        "mandatory": [],
+        "recommended": ["牛肉", "豚肉", "鶏肉", "大豆", "ごま"]
+      }
+    },
+    {
+      "id": "eating_out_8",
+      "name": "サラダボウル",
+      "description": "新鮮な野菜とヘルシーなトッピングの軽食",
+      "cuisine": "yoshoku",
+      "dietTags": ["healthy", "vegetarian", "vegetarian"],
+      "estimatedBudget": 800,
+      "popularityCount": 65,
+      "emoji": "🥗",
+      "searchKeywords": ["サラダ", "salad", "ヘルシー"],
+      "allergens": {
+        "mandatory": ["卵"],
+        "recommended": ["大豆", "鶏肉", "ごま", "くるみ", "アーモンド"]
+      }
+    },
+    {
+      "id": "eating_out_9",
+      "name": "うどん",
+      "description": "もちもちした太麺が特徴の日本の麺料理",
+      "cuisine": "washoku",
+      "dietTags": ["normal", "vegetarian"],
+      "estimatedBudget": 600,
+      "popularityCount": 94,
+      "emoji": "🍲",
+      "searchKeywords": ["うどん", "udon", "麺"],
+      "allergens": {
+        "mandatory": ["小麦"],
+        "recommended": ["大豆", "鶏肉", "えび", "かに"]
+      }
+    },
+    {
+      "id": "eating_out_10",
+      "name": "ピザ",
+      "description": "チーズとトッピングがたっぷりのイタリア料理",
+      "cuisine": "italian",
+      "dietTags": ["normal", "vegetarian"],
+      "estimatedBudget": 1500,
+      "popularityCount": 103,
+      "emoji": "🍕",
+      "searchKeywords": ["ピザ", "pizza", "イタリアン"],
+      "allergens": {
+        "mandatory": ["小麦", "乳"],
+        "recommended": ["大豆", "豚肉", "鶏肉"]
+      }
+    },
+    {
+      "id": "eating_out_11",
+      "name": "そば",
+      "description": "そば粉を使った日本の伝統的な麺料理",
+      "cuisine": "washoku",
+      "dietTags": ["normal", "healthy"],
+      "estimatedBudget": 700,
+      "popularityCount": 78,
+      "emoji": "🍝",
+      "searchKeywords": ["そば", "蕎麦", "soba"],
+      "allergens": {
+        "mandatory": ["そば"],
+        "recommended": ["大豆", "えび", "かに"]
+      }
+    },
+    {
+      "id": "eating_out_12",
+      "name": "タコス",
+      "description": "スパイシーな具材をトルティーヤで包んだメキシコ料理",
+      "cuisine": "mexican",
+      "dietTags": ["normal", "meat"],
+      "estimatedBudget": 1100,
+      "popularityCount": 65,
+      "emoji": "🌮",
+      "searchKeywords": ["タコス", "tacos", "メキシカン"],
+      "allergens": {
+        "mandatory": ["小麦"],
+        "recommended": ["牛肉", "豚肉", "鶏肉", "大豆", "乳"]
+      }
+    },
+    {
+      "id": "eating_out_13",
+      "name": "韓国料理",
+      "description": "辛くて美味しいキムチやビビンバなどの韓国料理",
+      "cuisine": "korean",
+      "dietTags": ["normal", "meat", "vegetarian"],
+      "estimatedBudget": 1200,
+      "popularityCount": 92,
+      "emoji": "🥘",
+      "searchKeywords": ["韓国料理", "korean", "キムチ", "ビビンバ"],
+      "allergens": {
+        "mandatory": ["卵"],
+        "recommended": ["大豆", "牛肉", "豚肉", "鶏肉", "ごま"]
+      }
+    },
+    {
+      "id": "eating_out_14",
+      "name": "丼もの",
+      "description": "ご飯の上に様々な具材をのせた日本の丼料理",
+      "cuisine": "washoku",
+      "dietTags": ["normal", "meat"],
+      "estimatedBudget": 800,
+      "popularityCount": 87,
+      "emoji": "🍚",
+      "searchKeywords": ["丼", "どんぶり", "親子丼", "牛丼"],
+      "allergens": {
+        "mandatory": ["卵"],
+        "recommended": ["牛肉", "豚肉", "鶏肉", "大豆"]
+      }
+    },
+    {
+      "id": "eating_out_15",
+      "name": "フレンチ",
+      "description": "洗練された技法で作られるフランス料理",
+      "cuisine": "french",
+      "dietTags": ["normal", "meat"],
+      "estimatedBudget": 3500,
+      "popularityCount": 34,
+      "emoji": "🍷",
+      "searchKeywords": ["フレンチ", "french", "フランス料理"],
+      "allergens": {
+        "mandatory": ["小麦", "卵", "乳"],
+        "recommended": ["牛肉", "豚肉", "鶏肉", "大豆", "えび", "かに"]
+      }
+    },
+    {
+        "id": "eating_out_16",
+        "name": "とんかつ",
+        "description": "サクサクの衣とジューシーな豚ロースが楽しめる定食",
+        "cuisine": "washoku",
+        "dietTags": ["normal", "meat"],
+        "estimatedBudget": 1233,         
+        "popularityCount": 120,
+        "emoji": "🐷",
+        "searchKeywords": ["とんかつ", "豚カツ", "tonkatsu"],
+        "allergens": {
+          "mandatory": ["小麦", "卵"],
+          "recommended": ["豚肉", "大豆"]
+        }
+      },
+      {
+        "id": "eating_out_17",
+        "name": "お好み焼き",
+        "description": "キャベツやネギをたっぷり使った、ふわっとした生地の鉄板焼き",
+        "cuisine": "washoku",
+        "dietTags": ["normal", "vegetarian"],
+        "estimatedBudget": 1500,         
+        "popularityCount": 110,
+        "emoji": "🥞",
+        "searchKeywords": ["お好み焼き", "広島焼き", "okonomiyaki"],
+        "allergens": {
+          "mandatory": ["小麦", "卵"],
+          "recommended": ["大豆", "豚肉", "いか", "えび"]
+        }
+      },
+      {
+        "id": "eating_out_18",
+        "name": "焼きそば",
+        "description": "屋台の定番、ソース香るもちっとした麺料理",
+        "cuisine": "washoku",
+        "dietTags": ["normal", "vegetarian"],
+        "estimatedBudget": 550,          
+        "popularityCount": 102,
+        "emoji": "🍜",
+        "searchKeywords": ["焼きそば", "yakisoba", "ソース焼きそば"],
+        "allergens": {
+          "mandatory": ["小麦"],
+          "recommended": ["大豆", "豚肉", "りんご"]
+        }
+      },
+      {
+        "id": "eating_out_19",
+        "name": "回転寿司",
+        "description": "リーズナブルに楽しめる回転式の寿司レストラン",
+        "cuisine": "washoku",
+        "dietTags": ["normal", "healthy"],
+        "estimatedBudget": 1200,         
+        "popularityCount": 145,
+        "emoji": "🍣",
+        "searchKeywords": ["回転寿司", "sushi", "寿司"],
+        "allergens": {
+          "mandatory": ["えび", "かに"],
+          "recommended": ["いか", "いくら", "さけ", "さば", "大豆"]
+        }
+      },
+      {
+        "id": "eating_out_20",
+        "name": "居酒屋",
+        "description": "お酒と一緒に楽しむ多彩な料理が揃う日本の飲食店",
+        "cuisine": "washoku",
+        "dietTags": ["normal", "meat"],
+        "estimatedBudget": 2000,         
+        "popularityCount": 98,
+        "emoji": "🍻",
+        "searchKeywords": ["居酒屋", "izakaya", "飲み会"],
+        "allergens": {
+          "mandatory": ["小麦", "卵"],
+          "recommended": ["大豆", "鶏肉", "豚肉", "牛肉", "えび", "かに", "いか", "さば"]
+        }
+      },
+      {
+        "id": "eating_out_21",
+        "name": "ファミレス",
+        "description": "家族で楽しめる多様なメニューが揃うファミリーレストラン",
+        "cuisine": "yoshoku",
+        "dietTags": ["normal", "meat", "vegetarian"],
+        "estimatedBudget": 1000,         
+        "popularityCount": 87,
+        "emoji": "🍽️",
+        "searchKeywords": ["ファミレス", "family restaurant", "ファミリーレストラン"],
+        "allergens": {
+          "mandatory": ["小麦", "卵", "乳"],
+          "recommended": ["大豆", "鶏肉", "豚肉", "牛肉", "えび"]
+        }
+      },
+      {
+        "id": "eating_out_22",
+        "name": "カフェ",
+        "description": "コーヒーや軽食を楽しめるリラックスできる空間",
+        "cuisine": "yoshoku",
+        "dietTags": ["normal", "vegetarian"],
+        "estimatedBudget": 800,          
+        "popularityCount": 112,
+        "emoji": "☕",
+        "searchKeywords": ["カフェ", "cafe", "コーヒー"],
+        "allergens": {
+          "mandatory": ["小麦", "卵", "乳"],
+          "recommended": ["大豆", "アーモンド", "くるみ"]
+        }
+      },
+      {
+        "id": "eating_out_23",
+        "name": "定食屋",
+        "description": "ご飯、味噌汁、おかずがセットになった日本の定食",
+        "cuisine": "washoku",
+        "dietTags": ["normal", "healthy"],
+        "estimatedBudget": 900,          
+        "popularityCount": 95,
+        "emoji": "🍱",
+        "searchKeywords": ["定食", "teishoku", "定食屋"],
+        "allergens": {
+          "mandatory": [],
+          "recommended": ["大豆", "鶏肉", "豚肉", "牛肉", "さば"]
+        }
+      },
+      {
+        "id": "eating_out_24",
+        "name": "弁当",
+        "description": "持ち帰りできる便利な日本のお弁当",
+        "cuisine": "washoku",
+        "dietTags": ["normal", "meat"],
+        "estimatedBudget": 500,          
+        "popularityCount": 134,
+        "emoji": "🍱",
+        "searchKeywords": ["弁当", "bento", "お弁当"],
+        "allergens": {
+          "mandatory": ["卵"],
+          "recommended": ["大豆", "鶏肉", "豚肉", "牛肉", "さば", "さけ"]
+        }
+      }
+  ]
+} 

@@ -1,0 +1,447 @@
+/* App Name */
+"app_name" = "メシセレ";
+
+/* HomeView Subtitle */
+"decide_quickly" = "でサクッと決定！";
+
+/* Tab Bar */
+"home" = "ホーム";
+"history" = "履歴";
+"settings" = "設定";
+
+/* Home Screen */
+"select_meal_mode" = "料理モードを選択";
+"cook" = "料理する";
+"eat_out" = "外食";
+"select_diet_type" = "ダイエットタイプを選択";
+"normal" = "ノーマル";
+"healthy" = "ヘルシー";
+"vegan" = "ヴィーガン";
+"lowCarb" = "低糖質";
+"gluten_free" = "グルテンフリー";
+"meat" = "肉食";
+"select_cuisine" = "料理ジャンルを選択";
+"washoku" = "和食";
+"yoshoku" = "洋食";
+"chuka" = "中華";
+"italian" = "イタリアン";
+"all" = "すべて";
+"other" = "その他";
+"random_or_specify" = "おまかせ／食材を指定";
+"random" = "おまかせ";
+"specify_ingredients" = "食材を指定";
+"enter_ingredients" = "食材を入力 (例: トマト, 鶏肉)";
+"add" = "追加";
+"exclude_ingredients" = "除外する食材を選択 (アレルギー対応)";
+"egg" = "卵";
+"dairy" = "乳製品";
+"wheat" = "小麦";
+"nuts" = "ナッツ";
+"soy" = "大豆";
+"seafood" = "魚介";
+"servings" = "何人分？";
+"one_serving" = "1人前";
+"two_servings" = "2人前";
+"three_four_servings" = "3〜4人前";
+"five_plus_servings" = "5人前以上";
+"budget" = "予算 (1人あたり)";
+"under_500" = "¥500以下";
+"500_1000" = "¥500〜¥1000";
+"1000_1500" = "¥1000〜¥1500";
+"no_limit" = "指定なし";
+"cooking_time" = "調理時間を選択";
+"ten_min" = "10分以内";
+"thirty_min" = "30分以内";
+"sixty_min" = "60分以内";
+"no_time_limit" = "指定なし";
+"receive_reminders" = "リマインダーを受け取る";
+"notification_settings_note" = "設定 > 通知 でも変更可能です。";
+"decide" = "決定";
+
+/* Enhanced Home Screen Features */
+"detailed_filters" = "詳細フィルター";
+"meal_mode_selection" = "料理モードを選択してください";
+"diet_type_selection" = "ダイエットタイプを選択してください";
+"cuisine_selection" = "料理ジャンルを選択してください";
+"random_decision" = "おまかせで決定";
+"specific_decision" = "この条件で決定";
+"spinner_animation" = "スピナーを回しています...";
+"preparing_recommendation" = "おすすめを準備中...";
+
+/* Validation Messages */
+"select_diet_type_required" = "ダイエットタイプを選択してください。";
+"add_ingredients_required" = "食材を1つ以上追加してください。";
+"eat_out_no_servings" = "外食の場合、人数は不要です。";
+"eat_out_no_cooking_time" = "外食の場合、調理時間は不要です。";
+
+/* Result Messages */
+"recommended_recipe" = "おすすめレシピ: %@";
+"recommended_restaurant" = "おすすめのお店: %@";
+"decide_this" = "これに決定";
+"try_again" = "もう一度";
+"go" = "行く";
+
+/* Error Messages */
+"no_recipe_found" = "該当するレシピが見つかりませんでした。";
+"no_restaurant_found" = "お近くのお店が見つかりませんでした。";
+"location_permission_required" = "位置情報の許可が必要です。設定画面から許可してください。";
+"no_matching_recipe" = "すべての条件を満たすレシピが見つかりませんでした。";
+"no_excluded_ingredients_recipe" = "除外する食材を含まないレシピはありませんでした。";
+"search_ingredients_not_found" = "お探しの食材を含むレシピが見つかりませんでした。";
+"change_conditions_and_retry" = "条件を変更して再度お試しください。";
+
+/* Recipe Detail */
+"ingredients" = "材料";
+"instructions" = "作り方";
+"nutrition_info" = "栄養成分";
+"calories" = "エネルギー";
+"protein" = "タンパク質";
+"fat" = "脂質";
+"carbs" = "炭水化物";
+"rate_recipe" = "このレシピを評価する";
+"rate_recipe_question" = "このレシピはいかがでしたか？";
+"share" = "シェア";
+"add_to_favorites" = "お気に入りに追加";
+"favorited" = "お気に入り済み";
+"step_number" = "手順%d";
+"cooking_instructions" = "作り方";
+"ingredient_list" = "材料一覧";
+"share_on_sns" = "SNSでシェア";
+"person_count_adjustment" = "人数調整";
+"person_count_display" = "%d人前";
+"popularity_count" = "%d人がこれを選びました";
+"popularity_label" = "みんなの選択";
+
+/* Restaurant */
+"directions" = "行き方を見る";
+"view_menu" = "メニューを見る";
+"distance_order" = "距離順";
+"rating_order" = "評価順";
+"popularity_order" = "人気順";
+"restaurant_details" = "お店の詳細";
+"call_restaurant" = "お店に電話";
+"restaurant_website" = "お店のサイト";
+
+/* History */
+"recent_history" = "最近の履歴";
+"no_history" = "まだ履歴がありません。最初の食事を決めてみましょう！";
+"decide_now" = "今すぐ決定";
+"delete" = "削除";
+"redo" = "再実行";
+"not_rated" = "未評価";
+"history_list" = "履歴一覧";
+"recent_decisions" = "最近の決定";
+"past_meals" = "過去の食事";
+
+/* Settings */
+"account" = "アカウント";
+"display_name" = "ユーザー名";
+"email" = "メールアドレス";
+"sign_out" = "サインアウト";
+"app_settings" = "アプリ設定";
+"notification_settings" = "通知設定";
+"receive_notifications" = "お知らせを受け取る";
+"default_meal_settings" = "デフォルト食事設定";
+"reset_defaults" = "デフォルトをリセット";
+"others" = "その他";
+"privacy_policy" = "プライバシーポリシー";
+"terms_of_service" = "利用規約";
+"contact_us" = "お問い合わせ";
+"app_version" = "アプリバージョン";
+"confirm_sign_out" = "本当にサインアウトしますか？";
+"yes" = "はい";
+"no" = "いいえ";
+"support" = "サポート";
+"feedback" = "フィードバック";
+
+/* Enhanced Onboarding */
+"welcome_to_meshisele" = "MeshiSele へようこそ";
+"meal_decision_made_easy" = "今日のごはん、もう迷わない";
+"perfect_meal_finder" = "あなたにぴったりの食事を見つけましょう";
+"how_it_works_title" = "使い方はとても簡単";
+"step_1_set_preferences" = "①好みの条件を設定";
+"step_2_spin_wheel" = "②スピナーを回す";
+"step_3_get_recommendation" = "③おすすめをすぐ表示";
+"cook_or_eat_out" = "料理も外食も対応";
+"choose_your_mood" = "その日の気分で選べます";
+"learning_from_history" = "履歴から学習";
+"personalized_suggestions" = "あなた好みをどんどん賢く";
+"get_started" = "さっそく始める";
+
+/* Sign In */
+"sign_in_title" = "サインインして始めよう！";
+"sign_in_subtitle" = "今日のごはん、もう迷わない。\nあなたにぴったりの食事を見つけましょう。";
+"sign_in_with_apple" = "Appleでサインイン";
+"other_sign_in" = "他の方法でサインイン";
+"privacy_notice" = "サインインすることで、利用規約およびプライバシーポリシーに同意したものとみなされます。";
+"sign_in_failed" = "サインインに失敗しました。時間をおいて再度お試しください。";
+"signing_in" = "サインイン中...";
+
+/* Notifications */
+"lunch_reminder" = "ランチはもう決めましたか？";
+"dinner_reminder" = "今日の夕飯のおすすめをお届けします";
+"meal_reminder_title" = "食事のリマインダー";
+"notification_permission_required" = "通知の許可が必要です";
+
+/* Share */
+"share_recipe_text" = "このレシピをチェック → %@";
+"share_restaurant_text" = "このお店をチェック → %@";
+"check_this_recipe" = "このレシピをチェック";
+"check_this_restaurant" = "このお店をチェック";
+
+/* Loading */
+"loading_recommendation" = "おすすめを表示中…少々お待ちください。";
+"loading" = "読み込み中";
+"please_wait" = "少々お待ちください";
+
+/* Date Format */
+"date_format" = "yyyy年M月d日 H:mm";
+
+/* Additional UI Text */
+"done" = "完了";
+"cancel" = "キャンセル";
+"error" = "エラー";
+"ok" = "OK";
+"back" = "戻る";
+"next" = "次へ";
+"previous" = "前へ";
+
+/* Nutrition Labels */
+"nutrition_per_serving" = "栄養成分（1人前）";
+"fiber" = "食物繊維";
+"sugar" = "砂糖";
+"sodium" = "ナトリウム";
+"cholesterol" = "コレステロール";
+
+/* Action Messages */
+"view_details" = "詳細を見る";
+"thank_you_for_rating" = "評価ありがとうございます！";
+"rate_this_recipe" = "このレシピを評価";
+
+/* Copy and Share */
+"copy_link" = "リンクをコピー";
+"share_recipe" = "レシピをシェア";
+"search" = "検索";
+"filter" = "フィルター";
+"sort" = "並び替え";
+"all" = "すべて";
+"none" = "なし";
+"save" = "保存";
+"edit" = "編集";
+"update" = "更新";
+"refresh" = "更新";
+"retry" = "再試行";
+"close" = "閉じる";
+"open" = "開く";
+"copy" = "コピー";
+"paste" = "貼り付け";
+"select" = "選択";
+"clear" = "クリア";
+"reset" = "リセット";
+"confirm" = "確認";
+"warning" = "警告";
+"success" = "成功";
+"failed" = "失敗";
+"enable" = "有効";
+"disable" = "無効";
+"on" = "オン";
+"off" = "オフ";
+
+/* Map and Navigation */
+"map" = "地図";
+"navigation" = "ナビゲーション";
+"open_in_maps" = "マップで開く";
+"open_in_apple_maps" = "Apple マップで開く";
+"open_in_google_maps" = "Google マップで開く";
+"copy_address" = "住所をコピー";
+"route_guidance" = "経路案内";
+
+/* Social and Share */
+"share_restaurant" = "お店をシェア";
+"share_recipe" = "レシピをシェア";
+"copy_link" = "リンクをコピー";
+"copy_restaurant_info" = "お店情報をコピー";
+
+/* Detail Views */
+"operating_hours" = "営業時間";
+"unknown_hours" = "営業時間: 不明";
+"contact_info" = "連絡先";
+"detailed_info" = "詳細情報";
+"category" = "カテゴリ";
+"price_level" = "価格帯";
+"rating_title" = "この～を評価する";
+"rating_question" = "いかがでしたか？";
+"save_rating" = "評価を保存";
+"rate_meal" = "この食事はいかがでしたか？";
+"rate_restaurant" = "お食事はいかがでしたか？";
+"rating_stars" = "評価: %@";
+
+/* History Detail */
+"history_detail" = "履歴詳細";
+"rating_and_comment" = "評価とコメント";
+"filtering" = "フィルター中";
+
+/* App Features */
+"meshisele_features" = "MeshiSele の特徴";
+"smart_recommendations" = "スマートなおすすめ";
+"personalized_experience" = "パーソナライズ体験";
+"easy_decision_making" = "簡単決定機能";
+"history_tracking" = "履歴管理";
+"location_based_restaurants" = "位置情報ベースのお店検索";
+"recipe_scaling" = "レシピの人数調整";
+"allergen_filtering" = "アレルゲン除外";
+"budget_filtering" = "予算フィルター";
+"time_filtering" = "時間フィルター";
+
+/* Accessibility */
+"accessibility_meal_mode" = "料理モード選択";
+"accessibility_diet_type" = "ダイエットタイプ選択";
+"accessibility_cuisine" = "料理ジャンル選択";
+"accessibility_ingredients" = "食材指定";
+"accessibility_decide_button" = "決定ボタン";
+"accessibility_spinner" = "スピナー";
+"accessibility_rating" = "評価";
+"accessibility_bookmark" = "お気に入り";
+"accessibility_share" = "シェア";
+"accessibility_map" = "地図";
+
+/* Missing Restaurant and Map Keys */
+"route_guidance" = "経路案内";
+"open_in_apple_maps" = "Apple マップで開く";
+"open_in_google_maps" = "Google マップで開く";
+"copy_address" = "住所をコピー";
+"copy_restaurant_info" = "お店情報をコピー";
+"share_restaurant" = "お店をシェア";
+
+/* Missing General Keys */
+"settings" = "設定";
+"search" = "検索";
+"filter" = "フィルター";
+"sort" = "並び替え";
+"all" = "すべて";
+"none" = "なし";
+"save" = "保存";
+"edit" = "編集";
+"update" = "更新";
+"refresh" = "更新";
+"retry" = "再試行";
+"close" = "閉じる";
+"open" = "開く";
+"copy" = "コピー";
+"paste" = "貼り付け";
+"select" = "選択";
+"clear" = "クリア";
+"reset" = "リセット";
+"confirm" = "確認";
+"warning" = "警告";
+"success" = "成功";
+"failed" = "失敗";
+"enable" = "有効";
+"disable" = "無効";
+"on" = "オン";
+"off" = "オフ";
+
+/* Empty States */
+"empty_history_title" = "履歴がありません";
+"empty_history_subtitle" = "最初の食事を決めてみましょう！";
+"empty_bookmarks_title" = "お気に入りがありません";
+"empty_bookmarks_subtitle" = "気に入った料理やお店を保存しましょう";
+"empty_search_title" = "検索結果がありません";
+"empty_search_subtitle" = "条件を変更して再度お試しください";
+
+/* Tutorial */
+"tutorial_welcome" = "チュートリアル";
+"tutorial_home_screen" = "ホーム画面の使い方";
+"tutorial_filters" = "フィルターの設定方法";
+"tutorial_decision" = "決定機能の使い方";
+"tutorial_history" = "履歴機能について";
+"tutorial_settings" = "設定画面について";
+"skip_tutorial" = "チュートリアルをスキップ";
+"start_tutorial" = "チュートリアルを開始";
+
+/* Fallback Names */
+"default_recipe_name" = "おすすめレシピ";
+"default_restaurant_name" = "おすすめのお店";
+
+/* Additional Meal Detail Strings */
+"view_details" = "詳細を見る";
+"cooking_instructions" = "調理手順";
+"ingredients_list" = "材料一覧";
+"nutritional_info" = "栄養情報";
+"estimated_cost" = "予算目安";
+"total_time" = "調理時間";
+"difficulty_level" = "難易度";
+"serving_size" = "人数";
+
+/* Restaurant Details */
+"restaurant_info" = "店舗情報";
+"opening_hours" = "営業時間";
+"phone_number" = "電話番号";
+"website" = "ウェブサイト";
+"price_range" = "価格帯";
+"cuisine_type" = "料理ジャンル";
+
+/* Person Count Display */
+"person_count_display" = "%d人";
+
+/* Rating Question */
+"rate_recipe_question" = "この決定はいかがでしたか？";
+
+/* System UI */
+"done" = "完了";
+"cancel" = "キャンセル";
+"dismiss" = "閉じる";
+"back" = "戻る";
+"next" = "次へ";
+"continue" = "続ける";
+"finish" = "完了";
+"submit" = "送信";
+"apply" = "適用";
+
+/* Count Labels */
+"items_count" = "%d項目";
+"steps_count" = "%dステップ";
+
+/* Welcome Messages */
+"welcome_message" = "ようこそ MeshiSele へ！";
+"welcome_subtitle" = "今日のごはん、もう迷わない。\nあなたにぴったりの食事を見つけましょう。";
+"welcome_button" = "さっそく始める";
+"welcome_skip" = "チュートリアルをスキップ";
+"welcome_start" = "チュートリアルを開始";
+
+/* Decision Status */
+"decided" = "決定";
+"shown" = "表示";
+"decided_meals" = "決定済み";
+"all_meals" = "すべて";
+"meal_decided" = "食事が決定されました";
+"meal_shown" = "食事が表示されました";
+"no_meal_found" = "食事が見つかりませんでした";
+
+/* Recipe confirmation */
+"recipe_confirmation" = "レシピを確認";
+"check_recipe" = "レシピを確認";
+
+/* Dark mode */
+"dark_mode" = "ダークモード";
+"appearance_mode_toggle" = "アプリの外観モードを切り替え";
+
+/* Count Labels */
+"items_count" = "%d項目";
+"steps_count" = "%dステップ";
+
+/* Welcome Messages */
+"welcome_message" = "ようこそ MeshiSele へ！";
+"welcome_subtitle" = "今日のごはん、もう迷わない。\nあなたにぴったりの食事を見つけましょう。";
+"welcome_button" = "さっそく始める";
+"welcome_skip" = "チュートリアルをスキップ";
+"welcome_start" = "チュートリアルを開始";
+
+/* Decision Status */
+"decided" = "決定";
+"shown" = "表示";
+"decided_meals" = "決定済み";
+"all_meals" = "すべて";
+"meal_decided" = "食事が決定されました";
+"meal_shown" = "食事が表示されました";
+"no_meal_found" = "食事が見つかりませんでした"; 

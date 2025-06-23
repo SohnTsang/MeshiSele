@@ -1,0 +1,274 @@
+/* App Name */
+"app_name" = "MeshiSele";
+
+/* HomeView Subtitle */
+"decide_quickly" = " - Quick Decision!";
+
+/* Tab Bar */
+"home" = "Home";
+"history" = "History";
+"settings" = "Settings";
+
+/* Home Screen */
+"select_meal_mode" = "Select meal mode";
+"cook" = "Cook";
+"eat_out" = "Eat out";
+"select_diet_type" = "Select diet type";
+"normal" = "Normal";
+"healthy" = "Healthy";
+"vegan" = "Vegan";
+"lowCarb" = "Low Carb";
+"gluten_free" = "Gluten Free";
+"meat" = "Meat";
+"select_cuisine" = "Select cuisine";
+"washoku" = "Japanese";
+"yoshoku" = "Western";
+"chuka" = "Chinese";
+"italian" = "Italian";
+"all" = "All";
+"other" = "Other";
+"random_or_specify" = "Random or specify";
+"random" = "Random";
+"specify_ingredients" = "Specify ingredients";
+"enter_ingredients" = "Enter ingredients (e.g. tomato, chicken)";
+"add" = "Add";
+"exclude_ingredients" = "Exclude ingredients (allergy support)";
+"egg" = "Egg";
+"dairy" = "Dairy";
+"wheat" = "Wheat";
+"nuts" = "Nuts";
+"soy" = "Soy";
+"seafood" = "Seafood";
+"servings" = "How many servings?";
+"one_serving" = "1 serving";
+"two_servings" = "2 servings";
+"three_four_servings" = "3-4 servings";
+"five_plus_servings" = "5+ servings";
+"budget" = "Select budget (per person)";
+"under_500" = "Under ¥500";
+"500_1000" = "¥500-¥1000";
+"1000_1500" = "¥1000-¥1500";
+"no_limit" = "No limit";
+"cooking_time" = "Select cooking time";
+"ten_min" = "Within 10 min";
+"thirty_min" = "Within 30 min";
+"sixty_min" = "Within 60 min";
+"no_time_limit" = "No time limit";
+"receive_reminders" = "Receive reminders";
+"notification_settings_note" = "Can also be changed in Settings > Notifications.";
+"decide" = "Decide";
+
+/* Enhanced Home Screen Features */
+"detailed_filters" = "Detailed filters";
+"meal_mode_selection" = "Please select meal mode";
+"diet_type_selection" = "Please select diet type";
+"cuisine_selection" = "Please select cuisine";
+"random_decision" = "Random decision";
+"specific_decision" = "Decide with these conditions";
+"spinner_animation" = "Spinning...";
+"preparing_recommendation" = "Preparing recommendation...";
+
+/* Validation Messages */
+"select_diet_type_required" = "Please select a diet type.";
+"add_ingredients_required" = "Please add at least one ingredient.";
+"eat_out_no_servings" = "Number of servings is not needed for eating out.";
+"eat_out_no_cooking_time" = "Cooking time is not needed for eating out.";
+
+/* Result Messages */
+"recommended_recipe" = "Recommended recipe: %@";
+"recommended_restaurant" = "Recommended restaurant: %@";
+"decide_this" = "Decide this";
+"try_again" = "Try again";
+"go" = "Go";
+
+/* Error Messages */
+"no_recipe_found" = "No matching recipes found.";
+"no_restaurant_found" = "No nearby restaurants found.";
+"location_permission_required" = "Location permission required. Please allow in Settings.";
+"no_matching_recipe" = "No recipes found that meet all conditions.";
+"no_excluded_ingredients_recipe" = "No recipes found without excluded ingredients.";
+"search_ingredients_not_found" = "No recipes found with the specified ingredients.";
+"change_conditions_and_retry" = "Please change conditions and try again.";
+
+/* Recipe Detail */
+"ingredients" = "Ingredients";
+"instructions" = "Instructions";
+"nutrition_info" = "Nutrition Info";
+"calories" = "Calories";
+"protein" = "Protein";
+"fat" = "Fat";
+"carbs" = "Carbs";
+"rate_recipe" = "Rate this recipe";
+"rate_recipe_question" = "How was this recipe?";
+"share" = "Share";
+"add_to_favorites" = "Add to favorites";
+"favorited" = "Favorited";
+"step_number" = "Step %d";
+"cooking_instructions" = "Cooking Instructions";
+"ingredient_list" = "Ingredient List";
+"share_on_sns" = "Share on SNS";
+"person_count_adjustment" = "Serving adjustment";
+"person_count_display" = "For %d people";
+"popularity_count" = "%d people chose this";
+"popularity_label" = "Popular choice";
+
+/* Restaurant */
+"directions" = "Get directions";
+"view_menu" = "View menu";
+"distance_order" = "By distance";
+"rating_order" = "By rating";
+"popularity_order" = "By popularity";
+"restaurant_details" = "Restaurant details";
+"call_restaurant" = "Call restaurant";
+"restaurant_website" = "Restaurant website";
+
+/* History */
+"recent_history" = "Recent history";
+"no_history" = "No history yet. Let's decide your first meal!";
+"decide_now" = "Decide now";
+"delete" = "Delete";
+"redo" = "Redo";
+"not_rated" = "Not rated";
+"history_list" = "History list";
+"recent_decisions" = "Recent decisions";
+"past_meals" = "Past meals";
+
+/* Settings */
+"account" = "Account";
+"display_name" = "Username";
+"email" = "Email";
+"sign_out" = "Sign out";
+"app_settings" = "App settings";
+"notification_settings" = "Notification settings";
+"receive_notifications" = "Receive notifications";
+"default_meal_settings" = "Default meal settings";
+"reset_defaults" = "Reset defaults";
+"others" = "Others";
+"privacy_policy" = "Privacy Policy";
+"terms_of_service" = "Terms of Service";
+"contact_us" = "Contact us";
+"app_version" = "Version %@";
+"confirm_sign_out" = "Are you sure you want to sign out?";
+"yes" = "Yes";
+"no" = "No";
+"support" = "Support";
+"feedback" = "Feedback";
+
+/* Enhanced Onboarding */
+"welcome_to_meshisele" = "Welcome to MeshiSele";
+"meal_decision_made_easy" = "Meal decisions made easy";
+"perfect_meal_finder" = "Find your perfect meal";
+"how_it_works_title" = "How it works - very simple";
+"step_1_set_preferences" = "① Set your preferences";
+"step_2_spin_wheel" = "② Spin the wheel";
+"step_3_get_recommendation" = "③ Get instant recommendation";
+"cook_or_eat_out" = "Cooking or eating out";
+"choose_your_mood" = "Choose based on your mood";
+"learning_from_history" = "Learning from history";
+"personalized_suggestions" = "Smarter personalized suggestions";
+"get_started" = "Get started";
+
+/* Sign In */
+"sign_in_title" = "Sign in to get started!";
+"sign_in_subtitle" = "No more meal decisions stress.\nFind your perfect meal.";
+"sign_in_with_apple" = "Sign in with Apple";
+"other_sign_in" = "Other sign in methods";
+"privacy_notice" = "By signing in, you agree to our Terms of Service and Privacy Policy.";
+"sign_in_failed" = "Sign in failed. Please try again later.";
+"signing_in" = "Signing in...";
+
+/* Notifications */
+"lunch_reminder" = "Have you decided on lunch yet?";
+"dinner_reminder" = "Here's today's dinner recommendation";
+"meal_reminder_title" = "Meal reminder";
+"notification_permission_required" = "Notification permission required";
+
+/* Share */
+"share_recipe_text" = "Check out this recipe → %@";
+"share_restaurant_text" = "Check out this restaurant → %@";
+"check_this_recipe" = "Check out this recipe";
+"check_this_restaurant" = "Check out this restaurant";
+
+/* Loading */
+"loading_recommendation" = "Loading recommendation... Please wait.";
+"loading" = "Loading";
+"please_wait" = "Please wait";
+
+/* Date Format */
+"date_format" = "MMM d, yyyy h:mm a";
+
+/* Additional UI Text */
+"done" = "Done";
+"cancel" = "Cancel";
+"error" = "Error";
+"ok" = "OK";
+"back" = "Back";
+"next" = "Next";
+"previous" = "Previous";
+
+/* Nutrition Labels */
+"nutrition_per_serving" = "Nutrition per serving";
+"fiber" = "Fiber";
+"sugar" = "Sugar";
+"sodium" = "Sodium";
+"cholesterol" = "Cholesterol";
+
+/* Action Messages */
+"view_details" = "View details";
+"thank_you_for_rating" = "Thank you for rating!";
+"rate_this_recipe" = "Rate this recipe";
+
+/* Copy and Share */
+"copy_link" = "Copy link";
+"share_recipe" = "Share recipe";
+
+/* Person Count Display */
+"person_count_display" = "%d people";
+
+/* Rating Question */
+"rate_recipe_question" = "How was this decision?";
+
+/* Missing Restaurant and Map Keys */
+"route_guidance" = "Route guidance";
+"open_in_apple_maps" = "Open in Apple Maps";
+"open_in_google_maps" = "Open in Google Maps";
+"copy_address" = "Copy address";
+"copy_restaurant_info" = "Copy restaurant info";
+"share_restaurant" = "Share restaurant";
+
+/* Missing General Keys */
+"search" = "Search";
+"filter" = "Filter";
+"sort" = "Sort";
+"all" = "All";
+"none" = "None";
+"save" = "Save";
+"edit" = "Edit";
+"update" = "Update";
+"refresh" = "Refresh";
+"retry" = "Retry";
+"close" = "Close";
+"open" = "Open";
+"copy" = "Copy";
+"paste" = "Paste";
+"select" = "Select";
+"clear" = "Clear";
+"reset" = "Reset";
+"confirm" = "Confirm";
+"warning" = "Warning";
+"success" = "Success";
+"failed" = "Failed";
+"enable" = "Enable";
+"disable" = "Disable";
+"on" = "On";
+"off" = "Off";
+
+/* Count Labels */
+"items_count" = "%d items";
+"steps_count" = "%d steps";
+
+/* App Version */
+"app_version" = "App Version";
+
+/* Welcome Messages */
+"welcome_message" = "Welcome message text here"; 
